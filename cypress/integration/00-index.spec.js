@@ -5,5 +5,5 @@ describe('Root endpoint', () => {
     cy.request('/').its('body').should('eq', "Hello World!");
 
   });
-
+  
 });
