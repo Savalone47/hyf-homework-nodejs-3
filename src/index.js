@@ -10,9 +10,6 @@ const User = require('../models/User');
 mongoose.connect('mongodb://localhost:27017/userData',
 	{ useUnifiedTopology: true,
 	  useNewUrlParser: true 
-	}, (err, data)=>{
-		if(err) throw err;
-		console.log('database is connected ');
 	});
 
 // middleware
